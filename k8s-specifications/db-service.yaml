@@ -8,7 +8,7 @@ spec:
   type: ClusterIP
   ports:
   - name: "db-service"
-    port: 5431
+    port: 5432
     targetPort: 5432
   selector:
     app: db
